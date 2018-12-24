@@ -29,7 +29,8 @@ module.exports = {
     'space-before-function-paren': 0,
     "key-spacing": [1, {"beforeColon": false,"afterColon": true}], //对象字面量中冒号的前后空格
     "space-before-blocks": 0,
-    "keyword-spacing": 0
+    "keyword-spacing": 0,
+    "quotes": 0
   },
   globals: {
     App: true,
