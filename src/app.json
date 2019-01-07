@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/mappage/main"
+    "pages/mappage/main",
+    "pages/search/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
