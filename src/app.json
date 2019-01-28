@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/main",
     "pages/mappage/main",
-    "pages/search/main"
+    "pages/search/main",
+    "pages/categorylist/main",
+    "pages/goods/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

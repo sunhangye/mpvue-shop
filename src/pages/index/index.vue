@@ -18,13 +18,13 @@
       >
         <block v-for="(item, index) in banner" :key="index">
           <swiper-item class="swiper-item">
-            <img class="slide-image" :src="item.image_url" :alt="item.name">
+            <image class="slide-image" :src="item.image_url" :alt="item.name" />>
           </swiper-item>
         </block>
       </swiper>
     </div>
     <div class="channel">
-      <div v-for="(item, index) in channel" :key="index">
+      <div @click="categoryList(item.id)" v-for="(item, index) in channel" :key="index">
         <img :src="item.icon_url" :alt="item.name">
         <p>{{item.name}}</p>
       </div>
