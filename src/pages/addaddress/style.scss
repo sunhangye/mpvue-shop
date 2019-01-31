@@ -1,0 +1,41 @@
+.addaddress {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+
+  .item {
+    width: 690rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    margin: 0 auto;
+    padding: 20rpx 0 10rpx;
+    border-bottom: 1rpx solid #f4f4f4;
+    input {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .itemend {
+    margin-top: 40rpx;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    div:nth-child(2) {
+      color: green;
+    }
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    background: #B4282D;
+    color: #fff;
+    font-size: 32rpx;
+  }
+}
